@@ -1,0 +1,173 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+header#landing-page {
+    height: 100vh;
+    background: url('img/tesera-pictures_intimate-wedding-ballroom_1.jpg') no-repeat center center/cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+header#landing-page .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline .event {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    width: 60%;
+    transition: transform 0.3s ease;
+}
+
+.timeline .event:hover {
+    transform: scale(1.05);
+}
+
+.location-details {
+    background: #f1f1f1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 60%;
+    text-align: left;
+    margin: 0 auto 20px auto;
+}
+
+.event-details {
+    background: #f1f1f1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 60%;
+    text-align: left;
+    margin: 0 auto 20px auto;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#music-controls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#music-controls button {
+    background: #fff;
+    color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+#music-controls button:hover {
+    background: #555;
+    color: #fff;
+}
+
